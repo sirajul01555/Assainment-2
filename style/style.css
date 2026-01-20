@@ -1,0 +1,513 @@
+
+*{
+    margin: 0;
+   
+}
+
+.main-bg{
+    background-color: #412567;
+}
+
+/* nav start here */
+.logo {
+  display: flex;
+  color: #FFFFFF;
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0;
+  letter-spacing: -1.5px; 
+}
+
+.gradient-text {
+  background: linear-gradient(45deg, #FF8E8E 10%, #D42AD1 50%, #8A00FF 90%);
+  
+  -webkit-background-clip: text;
+  background-clip: text;
+  
+  -webkit-text-fill-color: transparent;
+  
+  font-weight: 800;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    margin:3px auto;
+    
+
+}
+
+.ul-ancor{
+        
+    margin-top: 12px;
+
+}
+.ul-ancor a{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+
+    
+  
+}
+.btn-subscribe{    
+    background: linear-gradient(135deg, #FFEF5E 0%, #FF59D6 50%, #8A00FF 100%);
+    padding: 15px 40px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 50px;
+    color: white;
+
+}
+.ham-menu{
+    height:30px;
+    width:30px;
+    display: none;
+}
+/* navbar end here */
+
+
+
+
+
+
+
+.hero-bg{
+    background: url("../image/hero-bg.png");
+    height: 580px;
+}
+
+.circle-img{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.prodcus{
+    background: #1A0B2E;
+}
+
+.about-div{
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.about-div h1{
+    margin-bottom: 15px;
+}
+.about-div p{
+    margin-bottom: 8px;
+}
+
+.card-item{
+    display: grid;
+    grid-template-columns: repeat(4 , max-content);
+    justify-content: center;
+    margin-top: 30px;
+    
+    
+}
+.card-items{
+
+    
+    margin-left: 20px;
+    background-color: #412567;
+    text-align: center;
+}
+
+.card-items h2{
+    color: green;
+    font-weight: bold;
+}
+.card-items p{
+    color: white;
+
+}
+
+/* Choose section */
+
+.choose-section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+}
+
+
+
+.choos-card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3 , 130px);
+    gap: 10px;
+    width: 85%; 
+    max-width: 1200px; 
+    margin: 0 auto;
+
+
+}
+.choose-cards {
+    background:#533C72; 
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    text-align: start;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+
+
+}
+.choose-cards img {
+    width: 40px;
+    margin-bottom: 10px;
+
+}
+
+
+.choose-cards p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.big-cals{
+    grid-column: span 1 ;
+    grid-row:  span 2;
+}
+
+
+
+.big-raw{
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+
+
+
+
+/* video section */
+
+.episod-section{
+   
+    text-align: center;
+}
+.episod-section h2{
+    color: white;
+}
+.video-section{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    gap: 10px;
+    width: 85%; 
+    max-width: 1200px; 
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    
+}
+.class-1{
+    background:#533C72; 
+    border-radius: 15px;
+    max-width: 280px;
+
+}
+
+.bg{
+    background: url("../image/natur.png");
+    position: relative;
+    display: flex;      
+    justify-content: center; 
+    align-items: center;    
+    height: 200px;          
+    overflow: hidden;
+    border-radius: 10px;
+
+}
+
+.main-txt{
+    font-size: 45px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.remamber{
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    margin-bottom: 10px;
+
+}
+.remamber img{
+    margin-left: 10px;
+}
+.remamber h4{
+    color: green;
+    font-weight: bold;
+
+}
+
+
+/* Profile start here */
+.profile{
+    color: white;
+    background: #533C72;
+    border-radius: 15px;
+     width: 85%; 
+    max-width: 1200px; 
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 30px;
+}
+
+.txt-c{
+    text-align: center;
+}
+
+.profile-main{
+    display: flex;
+    align-items: center;
+    width: 1200px;
+}
+.itemss{
+    margin-left: 20px;
+}
+.itemss h3{
+    font-size: 34px;
+    margin-bottom: 10px;
+    text-align: start;
+}
+.social{
+    display: flex;
+    gap: 5px;
+    
+}
+.social img{
+    border: 1px solid #625e67;
+    padding: 10px;
+    border-radius: 50%;
+}
+/* hero section start here */
+
+
+/* .container-div{
+    background: url("../image/hero-bg.png");
+    justify-content: center;
+    text-align: center;
+    width:100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
+.cirle-images{
+    width: 230px;
+    height: 230px;
+    margin-top: 33px;
+    
+
+}
+.badge {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: #00ffaa;
+    color: #000;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 3px 8px;
+    border-radius: 10px;
+
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer here */
+
+
+
+
+
+/* FOtere */
+
+.footer{
+  
+    width: 100%;
+    min-height: 300px; 
+    background-image: url("../image/footer-bg.png"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 60px 20px;
+    margin-top: 50px;    
+   
+}
+.f-logos h1{
+    -align: center;
+    justify-content: center;
+    align-items: center;
+}
+.items-social{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+
+.social-item{
+    color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.f-p{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.432);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive Design start here */
+
+@media screen and (max-width:576px) {
+    .items-social{
+        grid-template-rows: span 2;
+    }
+    .social{
+        justify-content: center;
+    }
+  .profile-main {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;    
+        text-align: center;   
+        width: 100%;
+    }
+
+    
+    .itemss {
+        width: 100% ;
+        padding: 0 15px;        
+        margin: 0 ;   
+        box-sizing: border-box; 
+    }
+
+   
+    .itemss p {
+        width: 100%;
+        margin: 15px 0;        
+        word-wrap: break-word; 
+        text-align: center;     
+    }
+    .prodcus p{
+        width: 100%;
+    }
+    .video-section{
+               grid-template-columns: repeat(1 , 1fr);
+
+    }
+    
+    .choos-card{
+        grid-template-columns: repeat(1 , 1fr);
+    }
+    .about-div{
+        margin: 0 auto;
+        width:100%;
+    }
+    
+    .prodcus{
+        display: flex;
+        flex-direction: column;
+        display: 100%;
+    }
+    .card-item{
+        display: grid;
+        grid-template-columns: repeat(2 , max-content);
+    }
+   
+    .logo{
+        display: block;
+        font-size: 20px;
+    }
+    .ul-ancor a {
+        display: none;
+    }
+    .btn-subscribe{
+        display: none;
+    }
+    .ham-menu{
+        display: block;
+    }
+}
+
+
+
+
