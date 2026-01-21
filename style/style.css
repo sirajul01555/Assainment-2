@@ -106,9 +106,19 @@
     justify-content: center;
     align-items: center;
 }
-
+@keyframes simple-rotate {
+    from {
+        transform: rotate(0deg); 
+    }
+    to {
+        transform: rotate(360deg); 
+    }
+}
 .mic{
     width: 80px; 
+    animation: simple-rotate 4s linear infinite;
+    
+    transform-origin: center;
 }
 
 .badge {
@@ -500,6 +510,10 @@
         width: 100%;
     }
 
+    .items-social{
+    
+        flex-direction: column(2);
+    }
     
     .itemss {
         width: 100% ;
