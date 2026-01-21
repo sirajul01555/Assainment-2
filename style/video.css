@@ -1,0 +1,58 @@
+.hero-section {
+    width: 100%;
+    min-height: 500px;
+    background-color: #0f051d;
+    background-image: url("../image/hero-bg.png"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.logo-wrapper {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.gradient-circle {
+    width: 180px;
+    height: 180px;
+    background: url("../image/hero-circle.png");
+    display: flex;
+    background-size: cover;       
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.mic{
+    width: 80px; 
+}
+
+.badge {
+    top: 15px;
+    right: 15px;
+    background-color: #00ffaa; 
+    color: #000;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 4px 10px;
+    border-radius: 20px;
+}
+.badge {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: #00ffaa;
+    color: #000;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 4px 10px;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
